@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<extension key="updatemailingcontent" type="module">
+  <file>updatemailingcontent</file>
+  <name>Update mailing content</name>
+  <description>Update mailing content</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Pradeep Nayak</author>
+    <email>pradpnayak@gmail.com</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/pradpnayak/updatemailingcontent</url>
+    <url desc="Documentation">https://github.com/pradpnayak/updatemailingcontent</url>
+    <url desc="Support">https://github.com/pradpnayak/updatemailingcontent/issues</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2022-01-01</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>5.35</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/UpdateMailingContent</namespace>
+  </civix>
+</extension>

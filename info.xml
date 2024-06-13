@@ -26,5 +26,9 @@
   </classloader>
   <civix>
     <namespace>CRM/UpdateMailingContent</namespace>
+    <format>23.02.1</format>
   </civix>
+  <mixins>
+    <mixin>smarty-v2@1.0.1</mixin>
+  </mixins>
 </extension>

@@ -8,7 +8,7 @@
 {literal}
 <script type="text/javascript">
   CRM.$(function($) {
-    $($('table.crm-update_scheduled_mailings-main-update_scheduled_mailings')).insertAfter('div#pdf_format');
+    $($('table.crm-update_scheduled_mailings-main-update_scheduled_mailings')).insertAfter('details#pdf_format');
   });
 </script>
 {/literal}
